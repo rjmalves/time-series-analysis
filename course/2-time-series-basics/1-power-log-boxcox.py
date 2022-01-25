@@ -43,7 +43,6 @@ def log_transform(a: np.ndarray) -> np.ndarray:
 #   - scipy package uses the box-cox negative log-likelihood
 #   function
 
-
 def boxcox_transform(a: np.ndarray,
                      lamb: float = None) -> np.ndarray:
     if lamb is None:
